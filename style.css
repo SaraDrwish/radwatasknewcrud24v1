@@ -11,6 +11,7 @@ body{
 .container .form_gorp label ,
 .container .form_gorp input ,
  .container .form_gorp textarea {
+     /* display: block; */
 margin: 1%;
 padding: 1% 0%;
 width: 100%;
@@ -26,6 +27,10 @@ color: rgb(84, 105, 99);
     color: rgb(255, 255, 255);
 }
 
+#editbtn{
+    display: none;
+}
+
 /* container 2  ========================================================*/
 
 .container2{
@@ -34,12 +39,13 @@ color: rgb(84, 105, 99);
     width: 60%;
     margin: auto;
     padding:3%;
-    gap: 2%;
+    gap:16px;
 
 }
 .container2 .product{
     position: relative;
     width:100% ;
+    /* height: 200px; */
 }
 .container2 .product img{
     /* width: 220px;
@@ -55,23 +61,27 @@ color: rgb(84, 105, 99);
 .container2 .product span{
     background-color: rgb(135, 173, 162);
     color: white;
-    padding: 2% ;
+    padding: 3% ;
+    width: 90px;
+    /* display: inline-block; */
 }
 
-.container2 .product P{
+.container2 .product p{
   margin-top: 2%;
   color: gray;
+  width: 180px;
+  height: auto;
+  /* display: inline-block; */
+
 }
 
-.container2 .product  .price{
+.container2 .product .price{
     position: absolute;
     top: 0;
     right: 11%;
     background-color: rgb(219, 189, 189);
     padding: 4%;
     color: rgb(255, 255, 255);
-
-
 }
 .container2 .product  button{
     padding: 2%;
